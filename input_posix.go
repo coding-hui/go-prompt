@@ -1,3 +1,4 @@
+//go:build !windows
 // +build !windows
 
 package prompt
@@ -5,8 +6,9 @@ package prompt
 import (
 	"syscall"
 
-	"github.com/c-bata/go-prompt/internal/term"
 	"golang.org/x/sys/unix"
+	
+	"github.com/coding-hui/go-prompt/internal/term"
 )
 
 const maxReadBytes = 1024

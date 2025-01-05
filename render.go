@@ -5,8 +5,9 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/c-bata/go-prompt/internal/debug"
 	runewidth "github.com/mattn/go-runewidth"
+
+	"github.com/coding-hui/go-prompt/internal/debug"
 )
 
 // Render to render prompt information from state of Buffer.
