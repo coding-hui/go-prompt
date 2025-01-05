@@ -3,6 +3,11 @@
 *.a
 *.so
 bin/
+.idea
+DS_Store
+*.swp
+*.swo
+*.swx
 
 # Folders
 pkg/
